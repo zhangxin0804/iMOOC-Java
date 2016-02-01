@@ -1,0 +1,19 @@
+1. JVM JDK JRE分别代表什么含义？
+
+	JVM就是Java Virtual Machine, 这是一个很复杂的概念，它是Java跨平台特性的保证 (cross-platform)。我们的Java源文件(以.java结尾), 首先
+要经过compiler编译器编译，得到字节码文件byte code文件(以.class结尾)，然后不管是什么平台windows, linux, OSX. 我们的JVM中都包括一个解释器
+interpreter能够帮助我们不受平台限制，而运行程序。
+
+	JDK就是Java Development Kit(Java开发工具包), 没有JDK我们就没法进行Java应用程序开发。
+
+	JRE就是Java Runtime Environment (Java运行环境), 要想运行Java，我们就需要JRE.
+
+2. Java的最基础部分称作 Java SE, 它包括java的一些built-in的数据结构，API，面向对象的概念和操作，JVM等等。
+
+3. 在Java SE的基础上，有了Java EE也叫做Java的企业版，主要用于大型企业级应用的开发。其中包括 JSP, EJB, 服务, 工作流等等。
+
+4. 另外Java还有 Java ME的部分，它主要用于嵌入式开发，比如基于Android的手机游戏等。
+
+5. 综上所述，Java的体系结构分为 Java SE, Java EE, Java ME.
+
+6. 
