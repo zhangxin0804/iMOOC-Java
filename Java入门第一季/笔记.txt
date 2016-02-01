@@ -1,8 +1,7 @@
 1. JVM JDK JRE分别代表什么含义？
 
 	JVM就是Java Virtual Machine, 这是一个很复杂的概念，它是Java跨平台特性的保证 (cross-platform)。我们的Java源文件(以.java结尾), 首先
-要经过compiler编译器编译，得到字节码文件byte code文件(以.class结尾)，然后不管是什么平台windows, linux, OSX. 我们的JVM中都包括一个解释器
-interpreter能够帮助我们不受平台限制，而运行程序。
+要经过compiler编译器编译(javac命令)，得到字节码文件byte code文件与平台无关(以.class结尾)，然后不管是什么平台windows, linux, OSX. 我们的JVM中都包括一个解释器interpreter(java命令)能够帮助我们不受平台限制，而运行程序。
 
 	JDK就是Java Development Kit(Java开发工具包), 没有JDK我们就没法进行Java应用程序开发。
 
@@ -16,4 +15,9 @@ interpreter能够帮助我们不受平台限制，而运行程序。
 
 5. 综上所述，Java的体系结构分为 Java SE, Java EE, Java ME.
 
-6. 
+6. 如果是通过命令行的方式来解释字节码文件，比如我们有个XXX.class这个经过编译后的字节码文件，我们接下来要通过解释器解释来运行，我们用java命令
+执行时，java命令后不能跟文件的后缀！！！
+
+7. 注意：primitive type有8种：char, float, double, int, short, long, byte, boolean
+
+8. 
